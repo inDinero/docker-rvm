@@ -17,12 +17,12 @@
 
 ## Image Variants
 
-### `bxggs/rvm:<version>-focal`
+### `indineroengineering/rvm:<version>-focal`
 
 * Uses `buildpack-deps:focal` as its base image
 * Uses a tarball of the release specified by `<version>` and installs it as specified in RVM's official [offline install docs][offline]
 
-### `bxggs/rvm:<version>-bionic`
+### `indineroengineering/rvm:<version>-bionic`
 
 * Uses `buildpack-deps:bionic` as its base image
 * Uses a tarball of the release specified by `<version>` and installs it as specified in RVM's official [offline install docs][offline]
@@ -33,5 +33,5 @@
 * [Docker Hub][dockerhub]
 
 [offline]: https://github.com/rvm/rvm-site/blob/master/content/rvm/offline.md
-[github]: https://github.com/b-ggs/docker-rvm
-[dockerhub]: https://hub.docker.com/r/bxggs/rvm
+[github]: https://github.com/inDinero/docker-rvm
+[dockerhub]: https://hub.docker.com/r/indineroengineering/rvm

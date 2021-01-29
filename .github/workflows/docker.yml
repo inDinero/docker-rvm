@@ -11,7 +11,7 @@ jobs:
     env:
       DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
       DOCKER_HUB_PASSWORD: ${{ secrets.DOCKER_HUB_PASSWORD }}
-      DOCKER_REPOSITORY: bxggs/rvm
+      DOCKER_REPOSITORY: indineroengineering/rvm
     strategy:
       matrix:
         DOCKER_TAG:
